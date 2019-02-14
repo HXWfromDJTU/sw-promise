@@ -1,3 +1,6 @@
+let  {MyPromise} = require('./index');  
+
+
 //  测试
 let pro  = new MyPromise(function(resolve,reject){
     setTimeout(function(){
