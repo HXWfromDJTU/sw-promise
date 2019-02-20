@@ -4,8 +4,10 @@ sw-promise是一个模仿ES 6语法中的Promise 实现的一个Promsie库。
 
 promiseA+规范，[传送门👉](https://promisesaplus.com/)
 ##### 安装与引入
+```bat
+$ npm install sw-promise
+```
 ```js
-npm install sw-promise
 var {MyPromise} = require('sw-promise');  // 引入
 ```
 
