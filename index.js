@@ -1,6 +1,6 @@
-let  {MyPromise} = require('./promise');
+let { MyPromise } = require('./promise');
 let all = require('./all');
-let race = require('./race');  
+let race = require('./race');
 
 // all方法挂载
 MyPromise.all = all;

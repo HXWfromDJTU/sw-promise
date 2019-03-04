@@ -1,6 +1,6 @@
 {
   "name": "sw-promise",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "sw promise is a promise implementation for PromiseA+ rule package",
   "main": "index.js",
   "scripts": {
