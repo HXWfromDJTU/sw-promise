@@ -36,9 +36,9 @@ console.log(123);
 | 4️⃣ | MyPromise.reject | 创建一个状态为`rejected`的MyPromise对象 || ✅  |  
 | 5️⃣ | MyPromise.resolve | 创建一个状态为`resolved`的MyPromise对象 || ✅  | 
 | 6️⃣| Promise.prototype.then() | 用于取出状态中的值 || ✅  | 
-| 7️⃣ |Promise.prototype.finally() |  |  | 
-| 8️⃣ | Promise.prototype.catch() |  |  | 
-| 9️⃣ | Promise.try() |  |  |  
+| 7️⃣ |Promise.prototype.finally() |  | `pending` | 
+| 8️⃣ | Promise.prototype.catch() |  | `pending` | 
+| 9️⃣ | Promise.try() |  |  `pending` |  
 
 
 
